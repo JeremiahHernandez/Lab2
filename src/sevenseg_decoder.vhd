@@ -48,7 +48,7 @@ architecture Behavioral of sevenseg_decoder is
                    "0100000" when "0110",
                    "0001111" when "0111",
                    "0000000" when "1000",
-                   "0000100" when "1001",
+                   "0001100" when "1001",
                    "0001000" when "1010",
                    "1100000" when "1011",
                    "1110010" when "1100",
