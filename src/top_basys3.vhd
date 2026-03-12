@@ -97,7 +97,13 @@ begin
     sevenseg_decoder_inst : sevenseg_decoder
         port map (
             i_Hex   => sw,
-            o_seg_n => seg
+            o_seg_n(6) => seg(0),
+            o_seg_n(5) => seg(1),
+            o_seg_n(4) => seg(2),
+            o_seg_n(3) => seg(3),
+            o_seg_n(2) => seg(4),
+            o_seg_n(1) => seg(5),
+            o_seg_n(0) => seg(6)
     );
 	--	Port map: wire your component up to the switches and seven-segment display cathodes
 	-----------------------------------------------------	
