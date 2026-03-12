@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 03/11/2026 11:46:14 PM
+-- Create Date: 03/12/2026 12:20:47 AM
 -- Design Name: 
 -- Module Name: sevenseg_decoder_tb - Behavioral
 -- Project Name: 
@@ -68,7 +68,6 @@ begin
         w_hex <= x"D"; wait for 10 ns;
         w_hex <= x"E"; wait for 10 ns;
         w_hex <= x"F"; wait for 10 ns;
-       
 
         wait;
     end process;
